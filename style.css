@@ -1,0 +1,121 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+header {
+  text-align: center;
+  background-color: black;
+  width: 100%;
+}
+header p {
+  color: white;
+  padding-top: 40px;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
+header ul li a {
+  color: white;
+}
+#menu {
+  text-decoration: dashed;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0px 0;
+}
+#menu li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 24px;
+  background: rgba(0, 0, 0, 0);
+  border: 1.5px solid rgba(255, 255, 255, 0);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.2s;
+  margin: 0px;
+}
+body * {
+  font-family: "Inter", sans-serif;
+  color: black;
+}
+#menu li a:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1.5px solid white;
+}
+body {
+  background: url(images/bg_mobile.jpg) no-repeat top center/cover;
+  height: 100vh;
+}
+body #content h2 {
+  text-align: center;
+  margin: 40px 10px 30px;
+}
+body #content {
+  text-align: justify;
+  margin: 20px;
+}
+.comparativo{
+  display:flex;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+footer {
+  padding: 10px 0;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 150px;
+}
+footer h3 {
+  text-align: center;
+}
+footer div #container {
+  width: 100%;
+  max-width: 588px;
+  margin: 0px auto;
+  padding: 0px auto;
+}
+#box {
+  display: flex;
+}
+#profile {
+  text-align: center;
+  padding: 10px auto 10px;
+  margin: 20px auto 0px;
+}
+#profile img {
+  margin-top: 16px;
+  width: 80px;
+}
+#profile p {
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 16px;
+}
+#social-links {
+  display: flex;
+  padding: 0px auto;
+  margin: 0px auto;
+  font-size: 24px;
+  justify-content: center;
+}
+#social-links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  transition: background 0.2s;
+  border-radius: 50%;
+}
+#social-links a:hover {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 16px;
+}
+@media (min-width: 700px) {
+  body {
+    background: url(images/bg_desktop.jpg) no-repeat top center/cover;
+  }
+}
