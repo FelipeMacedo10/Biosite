@@ -47,7 +47,7 @@ body * {
   border: 1.5px solid white;
 }
 body {
-  background: url(images/bg_mobile.jpg) no-repeat top center/cover;
+  background: url(C:\Users\felip\Downloads\Github\arquivos\bg_mobile.jpg) no-repeat top center/cover;
   height: 100vh;
 }
 body #content h2 {
@@ -116,6 +116,6 @@ footer div #container {
 }
 @media (min-width: 700px) {
   body {
-    background: url(images/bg_desktop.jpg) no-repeat top center/cover;
+    background: url(C:\Users\felip\Downloads\Github\arquivos\bg_desktop.jpg) no-repeat top center/cover;
   }
 }
