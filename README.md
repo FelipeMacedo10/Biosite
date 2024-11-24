@@ -7,7 +7,7 @@ Projeto de biologia e autoria web, desenvolvido por Felipe, Ananda, Maria Vitori
   <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-<a href="#por">Por</a>
+<a href="#desenvolvedores">Desenvolvedores</a>
 </p>
 
 <br>
