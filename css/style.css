@@ -21,7 +21,7 @@ header ul li a {
   text-decoration: dashed;
   list-style: none;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   padding: 0px 0;
 }
 #menu li a {
@@ -47,7 +47,7 @@ body * {
   border: 1.5px solid white;
 }
 body {
-  background: url(C:\Users\felip\Downloads\Github\arquivos\bg_mobile.jpg) no-repeat top center/cover;
+  /*background: url(../IMAGENS/bg_mobile.jpg) no-repeat top center/cover;*/
   height: 100vh;
 }
 body #content h2 {
@@ -57,6 +57,12 @@ body #content h2 {
 body #content {
   text-align: justify;
   margin: 20px;
+}
+#centro{
+  text-align: center;
+}
+#arquivo {
+  width: 400px;
 }
 .comparativo{
   display:flex;
@@ -80,6 +86,7 @@ footer div #container {
 }
 #box {
   display: flex;
+  flex-direction: column;
 }
 #profile {
   text-align: center;
@@ -115,7 +122,13 @@ footer div #container {
   padding: 16px;
 }
 @media (min-width: 700px) {
-  body {
-    background: url(C:\Users\felip\Downloads\Github\arquivos\bg_desktop.jpg) no-repeat top center/cover;
+  /*body {
+    background: url(../IMAGENS/bg_desktop.jpg) no-repeat top center/cover;
+  }*/
+  #menu {
+    flex-direction: row;
+  }
+  #box {
+    flex-direction: row;
   }
 }
