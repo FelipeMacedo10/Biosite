@@ -62,7 +62,7 @@ body #content {
   text-align: center;
 }
 #arquivo {
-  width: 300px;
+  width: 250px;
   margin-top: 20px;
 }
 .comparativo{
@@ -128,6 +128,10 @@ footer div #container {
   }*/
   #menu {
     flex-direction: row;
+  }
+  #arquivo {
+    width: 400px;
+    margin-top: 20px;
   }
   #box {
     flex-direction: row;
