@@ -31,8 +31,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Biosite é um projeto das disciplinas de biologia e autoria web, que aborda a nutrição das células animais e vegetais.
 
-- [Acesse o github](https://github.com/FelipeMacedo10/Biosite)
-
 - [Acesse o projeto finalizado, online](https://felipemacedo10.github.io/Biosite/)
 
 ## Layout
