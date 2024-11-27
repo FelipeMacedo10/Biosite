@@ -8,7 +8,7 @@
       "type": "chrome",
       "request": "launch",
       "name": "Open index.html",
-      "file": "c:\\Users\\felip\\Downloads\\BIOSITE\\HTML\\index.html"
+      "file": "c:\\Users\\felip\\Downloads\\BIOSITE\\index.html"
     }
   ]
 }
