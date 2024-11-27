@@ -13,7 +13,7 @@ Projeto de biologia e autoria web, desenvolvido por Felipe, Ananda, Maria Vitori
 <br>
 
 <p align="center">
-  <img alt="Projeto Biosite" src="../IMAGENS/preview.png" width="100%">
+  <img alt="Projeto Biosite" src="IMAGENS/preview.png" width="100%">
 </p>
 
 ## Tecnologias
