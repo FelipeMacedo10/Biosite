@@ -62,7 +62,8 @@ body #content {
   text-align: center;
 }
 #arquivo {
-  width: 400px;
+  width: 300px;
+  margin-top: 20px;
 }
 .comparativo{
   display:flex;
