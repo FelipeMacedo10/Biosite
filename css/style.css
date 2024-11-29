@@ -58,14 +58,20 @@ body #content {
   text-align: justify;
   margin: 20px;
 }
-#centro{
+#centro {
   text-align: center;
+  gap: 8px
 }
-#arquivo {
-  width: 250px;
-  margin-top: 20px;
+#imagem {
+  width: 200px;
+  margin: 20px;
 }
-.comparativo{
+#video {
+  width: 320px; 
+  height: 240px;
+  margin: 20px;
+}
+.comparativo {
   display:flex;
   gap: 30px;
   margin-bottom: 40px;
@@ -129,9 +135,13 @@ footer div #container {
   #menu {
     flex-direction: row;
   }
-  #arquivo {
+  #imagem {
     width: 400px;
     margin-top: 20px;
+  }
+  #video {
+    width: 640px;
+    height: 480px;
   }
   #box {
     flex-direction: row;
