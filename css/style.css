@@ -22,7 +22,7 @@ header ul li a {
   list-style: none;
   display: flex;
   flex-direction: column;
-  padding: 0px 0;
+  padding: 0px 0px;
 }
 #menu li a {
   display: flex;
@@ -47,7 +47,7 @@ body * {
   border: 1.5px solid white;
 }
 body {
-  /*background: url(../IMAGENS/bg_mobile.jpg) no-repeat top center/cover;*/
+  /*background: url(../IMAGENS/.jpg) no-repeat top center/cover;*/
   background-color: rgb(251, 248, 243);
   height: 100vh;
 }
@@ -139,7 +139,7 @@ footer div #container {
 }
 @media (min-width: 700px) {
   /*body {
-    background: url(../IMAGENS/bg_desktop.jpg) no-repeat top center/cover;
+    background: url(../IMAGENS/.jpg) no-repeat top center/cover;
   }*/
   #menu {
     flex-direction: row;

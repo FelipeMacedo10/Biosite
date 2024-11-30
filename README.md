@@ -1,7 +1,7 @@
 <h1 align="center"> Biosite </h1>
 
 <p align="center">
-Projeto de biologia e autoria web, desenvolvido por Felipe, Ananda, Maria Vitoria, Evelin e Gabriel Pinheiro. <br/>
+Projeto de biologia e autoria web, desenvolvido por: Ananda, Evelin, Felipe, Gabriel Pinheiro e Maria Vitória. <br/>
 
 <p align="center">
   <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -20,12 +20,12 @@ Projeto de biologia e autoria web, desenvolvido por Felipe, Ananda, Maria Vitori
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- HTML
-- CSS
-- JavaScript
-- Git
-- Github
-- Figma
+- HTML;
+- CSS;
+- JavaScript;
+- Git;
+- Github;
+- Figma.
 
 ## Projeto
 
@@ -39,4 +39,4 @@ Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figm
 
 ## Desenvolvedores
 
-Felipe, Ananda, Maria Vitoria, Evelin e Gabriel.
+Ananda, Evelin, Felipe, Gabriel Pinheiro e Maria Vitória.
