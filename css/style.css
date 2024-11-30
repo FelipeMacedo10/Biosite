@@ -5,7 +5,7 @@
 }
 header {
   text-align: center;
-  background-color: black;
+  background-color: rgb(19, 122, 122);
   width: 100%;
 }
 header p {
@@ -48,6 +48,7 @@ body * {
 }
 body {
   /*background: url(../IMAGENS/bg_mobile.jpg) no-repeat top center/cover;*/
+  background-color: rgb(251, 248, 243);
   height: 100vh;
 }
 body #content h2 {
@@ -60,19 +61,18 @@ body #content {
 }
 #centro {
   text-align: center;
-  gap: 8px
+  gap: 8px;
 }
 #imagem {
-  width: 200px;
+  width: 320px;
   margin: 20px;
 }
 #video {
-  width: 320px; 
-  height: 240px;
+  width: 320px;
   margin: 20px;
 }
 .comparativo {
-  display:flex;
+  display: flex;
   gap: 30px;
   margin-bottom: 40px;
 }
@@ -136,7 +136,7 @@ footer div #container {
     flex-direction: row;
   }
   #imagem {
-    width: 400px;
+    width: 640px;
     margin-top: 20px;
   }
   #video {
