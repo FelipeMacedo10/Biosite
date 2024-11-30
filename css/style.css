@@ -89,12 +89,13 @@ footer {
 }
 footer h3 {
   text-align: center;
+  margin-bottom: 10px;
 }
 footer div #container {
   background-color: rgba(185, 185, 185, 0.5);
   width: 100%;
   max-width: 588px;
-  margin: 10px auto 0px;
+  margin: 0px auto;
   padding: 0px auto;
   border-radius: 10px;
 }
