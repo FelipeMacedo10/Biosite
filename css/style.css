@@ -47,7 +47,7 @@ body * {
   border: 1.5px solid white;
 }
 body {
-  /*background: url(../IMAGENS/.jpg) no-repeat top center/cover;*/
+  /*background: url(../IMAGENS/teste.jpg) no-repeat top center/cover;*/
   background-color: rgb(251, 248, 243);
   height: 100vh;
 }
@@ -139,7 +139,7 @@ footer div #container {
 }
 @media (min-width: 700px) {
   /*body {
-    background: url(../IMAGENS/.jpg) no-repeat top center/cover;
+    background: url(../IMAGENS/teste.jpg) no-repeat top center/cover;
   }*/
   #menu {
     flex-direction: row;
