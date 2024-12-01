@@ -7,6 +7,8 @@ header {
   text-align: center;
   background-color: rgb(19, 122, 122);
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 header p {
   color: white;
@@ -24,6 +26,8 @@ header ul li a {
   flex-direction: column;
 }
 #menu li{
+  display: flex;
+  flex: 1;
   width: 100%;
   height: 100%;
 }
@@ -33,8 +37,7 @@ header ul li a {
   justify-content: center;
   width: 100%;
   height: 100%;
-  padding: 16px 24px;
-  background: rgba(0, 0, 0, 0.05);
+  padding: 16px 16px;
   border: 1.5px solid rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
@@ -54,6 +57,8 @@ body {
   /*background: url(../IMAGENS/teste.jpg) no-repeat top center/cover;*/
   background-color: rgb(251, 248, 243);
   height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 body #content h2 {
   text-align: center;
