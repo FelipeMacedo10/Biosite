@@ -138,7 +138,7 @@ footer div #container {
   align-items: center;
   justify-content: center;
   padding: 16px;
-  transition: background 0.2;
+  transition: background 0.2s;
   border-radius: 50%;
 }
 #social-links a:hover {
