@@ -152,8 +152,11 @@ body #content ol {
 }
 .comparativo {
   display: flex;
-  gap: 30px;
-  margin-bottom: 40px;
+  margin: 0px auto 40px;
+  max-width: 100%;
+  word-break: break-word;
+  justify-content: space-between;
+  gap: 20px;
 }
 footer {
   padding: 8px 0px;
