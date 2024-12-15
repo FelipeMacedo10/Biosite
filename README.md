@@ -1,7 +1,7 @@
 <h1 align="center"> Biosite </h1>
 
 <p align="center">
-Projeto de biologia e autoria web, desenvolvido por: Ananda, Evelin, Felipe, Gabriel Pinheiro e Maria Vitória. <br/>
+Projeto integrador, desenvolvido por: Ananda, Evelin, Felipe, Gabriel Pinheiro e Maria Vitória. <br/>
 
 <p align="center">
   <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -29,7 +29,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## Projeto
 
-O Biosite é um projeto das disciplinas de biologia e autoria web, que aborda a nutrição das células animais e vegetais.
+O Biosite é uma atividade do projeto integrador, que aborda a nutrição das células animais e vegetais.
 
 - [Acesse o projeto finalizado, online](https://felipemacedo10.github.io/Biosite/)
 

@@ -6,35 +6,95 @@
 header {
   text-align: center;
   background-color: rgb(19, 122, 122);
-  width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  min-height: 100px;
+  height: 100px;
+  align-items: center;
 }
 header p {
   color: white;
-  padding-top: 40px;
-  font-size: 30px;
+  padding: 0px;
+  font-size: 40px;
   font-family: "Times New Roman", Times, serif;
+  margin: auto;
 }
 header ul li a {
   color: white;
 }
+#ajuste{
+  min-width: 79px;
+}
+#vazio{
+  min-width: 76px;
+}
+#divisao{
+  margin-left: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  position: absolute;
+  top: 10px;
+}
+#texto{
+  padding: 0px 12px 0px 0px;
+  text-align: center;
+  font-size: 10px;
+  display: flex;
+  font-family: "Inter";
+}
+#button-toggle {
+  height: 30px;
+  width: 28px;
+  padding: 0px;
+  background-color: transparent;
+  border: transparent;
+}
+#button-toggle #barra {
+  margin: 3px 3px 3px;
+  padding: 0px;
+  height: 5px;
+  width: 22px;
+  background-color: white;
+  border: 1px solid rgb(19, 122, 122);
+  color: transparent;
+}
+#button-toggle div{
+  display: none;
+}
+#button-toggle:hover {
+  background-color: rgb(100, 100, 100, 0.5);
+  cursor: pointer;
+}
+#button-toggle:hover #barra{
+  border: 1px solid rgb(0, 0, 0, 0.8);
+  background-color: rgb(251, 251, 251);
+}
 #menu {
+  background: rgb(19, 122, 122);
   text-decoration: dashed;
   list-style: none;
-  display: flex;
+  display: none;
   flex-direction: column;
+  position: absolute;
+  z-index: 1;
+  top: 100px;
+  min-width: 301px;
+  width: 100%;
 }
 #menu li {
   display: flex;
-  height: 100%;
   flex-grow: 1;
+  padding-top: auto;
+  padding-bottom: auto;
 }
 #menu li a {
+  color: white;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100%;
+  text-align: center;
   width: 100%;
   padding: 16px 16px;
   border: 1.5px solid rgba(0, 0, 0, 0.1);
@@ -43,6 +103,7 @@ header ul li a {
   text-decoration: none;
   font-weight: 500;
   transition: background 0.2s;
+  flex-grow: 1;
 }
 body * {
   font-family: "Inter", sans-serif;
@@ -53,35 +114,40 @@ body * {
   border: 1.5px solid rgb(0, 0, 0, 0.6);
 }
 body {
-  background-color: rgb(251, 248, 243);
+  background-color: rgb(238, 234, 209);
   height: 100vh;
   display: flex;
   flex-direction: column;
+  min-width: 301px;
 }
 body #content h2 {
   text-align: center;
-  margin: 40px 10px 30px;
+  margin: 30px 10px 20px;
 }
 body #content {
   text-align: justify;
-  margin: 20px;
+  margin: 10px 40px 40px 40px;
 }
 body #content ul {
-  margin: 20px;
+  margin: 10px;
 }
 body #content ol {
-  margin: 20px;
+  margin: 10px;
 }
 #centro {
   text-align: center;
 }
+#titulo{
+  margin-top: 30px;
+  font-weight: bold;
+}
 #imagem {
-  width: 320px;
-  margin: 40px 0px 8px;
+  width: 240px;
+  margin: 8px 0px 8px;
 }
 #video {
-  width: 320px;
-  margin: 40px 0px 8px;
+  width: 240px;
+  margin: 8px 0px 8px;
 }
 .comparativo {
   display: flex;
@@ -92,14 +158,14 @@ footer {
   padding: 8px 0px;
   text-align: center;
   font-size: 14px;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 footer h3 {
   text-align: center;
   margin-bottom: 10px;
 }
 footer div #container {
-  background-color: rgba(185, 185, 185, 0.5);
+  background-color: rgba(186, 192, 204, 0.5);
   width: 100%;
   max-width: 588px;
   margin: 0px auto;
@@ -145,15 +211,34 @@ footer div #container {
   background: rgba(0, 0, 0, 0.1);
   padding: 16px;
 }
-@media (min-width: 650px) {
-  #menu {
-    flex-direction: row;
-  }
+@media (min-width: 730px) {
   #imagem {
     width: 640px;
   }
   #video {
     width: 640px;
+  }
+}
+@media (min-width: 520px) and (max-width: 730px){
+  #imagem {
+    width: 440px;
+  }
+  #video {
+    width: 440px;
+  }
+}
+@media (min-width: 322px){
+  header{
+    height: 100px;
+    min-height: 100px;
+  }
+  #menu{
+    top: 100px;
+  }
+}
+@media (min-width: 650px){
+  #menu {
+    flex-direction: row;
   }
   #box {
     flex-direction: row;

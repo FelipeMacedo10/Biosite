@@ -1,8 +1,14 @@
-document.getElementById("menu-toggle").addEventListener("click", function () {
-  var menu = document.getElementById("menu")
-  if (menu.style.display === "none" || menu.style.display === "") {
-    menu.style.display = "flex"
+document.addEventListener("DOMContentLoaded", () => {
+  const buttonToggle = document.getElementById("button-toggle")
+  if (buttonToggle) {
+    buttonToggle.addEventListener("click", () => {
+      const menu = document.getElementById("menu")
+      menu.style.display =
+        menu.style.display === "none" || menu.style.display === ""
+          ? "flex"
+          : "none"
+    })
   } else {
-    menu.style.display = "none"
+    console.error('Elemento "button-toggle" não encontrado.')
   }
 })

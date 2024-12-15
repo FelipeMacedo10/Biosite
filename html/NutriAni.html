@@ -10,9 +10,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Nutricao animal</title>
   <link rel="stylesheet" href="../css/style.css" />
+  <script src="../JS/javascript.js"></script>
 </head>
+
   <header>
-    <p>Biosite<p>
+    <div id="divisao">
+      <button id="button-toggle">
+        <p id="barra"></p>
+        <p id="barra"></p>
+        <p id="barra"></p>
+        <div>.</div>
+      </button>
+      <p id="texto">MENU</p>
+    </div>
+
+    <div id="ajuste"></div>
+
+    <p>Biologia em pauta</p>
+
+    <div id="vazio"></div>
+  </header>
+
+  <body>
 
     <ul id="menu">
         <li>
@@ -20,23 +39,22 @@
         </li>
 
         <li>
-          <a href="NutriAni.html">Nutrição em células animais</a>
+          <a href="../html/NutriAni.html">Nutrição em células animais</a>
         </li>
 
         <li>
-          <a href="NutriVeg.html">Nutrição em células vegetais</a>
+          <a href="../html/NutriVeg.html">Nutrição em células vegetais</a>
         </li>
 
         <li>
-          <a href="Comparativo.html">Comparativo</a>
+          <a href="../html/Comparativo.html">Comparativo</a>
         </li>
 
         <li>
-          <a href="Relatorios.html">Relatórios</a>
+          <a href="../html/Relatorios.html">Relatórios</a>
         </li>
     </ul>
-  </header>
-<body>
+
   <div id="content">
       <h2>Nutrição em células animais</h2>
       <ul>
@@ -50,6 +68,12 @@
           <p> <strong>Nutrientes essenciais:</strong> as células animais necessitam de uma variedade de nutrientes essenciais, como carboidratos, lipídios, proteínas, vitaminas e minerais, para realizar suas funções.</p><br>
         </li>
       </ul>
+      <div id="centro">
+        <p id="titulo"> Video 2: Nutrição animal</p>
+        <video id="video" controls> <source src="../VIDEOS/video2.mp4" type="video/mp4"> Seu navegador não suporta o vídeo. </video>
+        <p id="titulo"> Figura 2: Célula animal</p>
+        <img id="imagem" src="../IMAGENS/figura2.png" alt="Imagem de uma célula animal">
+      </div>
     </div>
 </body>
   <footer>
