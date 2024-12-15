@@ -127,6 +127,7 @@ body #content h2 {
 body #content {
   text-align: justify;
   margin: 10px 40px 40px 40px;
+  max-width: 100%;
 }
 body #content ul {
   margin: 10px;
