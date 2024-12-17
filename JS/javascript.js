@@ -1,14 +1,9 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const buttonToggle = document.getElementById("button-toggle")
-  if (buttonToggle) {
-    buttonToggle.addEventListener("click", () => {
-      const menu = document.getElementById("menu")
-      menu.style.display =
-        menu.style.display === "none" || menu.style.display === ""
-          ? "flex"
-          : "none"
-    })
+const buttonToggle = document.getElementById("button-toggle")
+buttonToggle.addEventListener("click", () => {
+  const menu = document.getElementById("menu")
+  if (menu.style.display === "none" || menu.style.display === "") {
+    menu.style.display = "flex"
   } else {
-    console.error('Elemento "button-toggle" não encontrado.')
+    menu.style.display = "none"
   }
 })
