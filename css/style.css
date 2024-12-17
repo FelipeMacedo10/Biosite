@@ -16,8 +16,11 @@ header p {
   color: white;
   padding: 0px;
   font-size: 40px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "IM Fell English SC", serif;
+  font-weight: 400;
+  font-style: normal;
   margin: auto;
+  line-height: 24px;
 }
 header ul li a {
   color: white;
