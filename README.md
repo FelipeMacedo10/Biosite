@@ -1,7 +1,7 @@
 <h1 align="center"> Biosite </h1>
 
 <p align="center">
-Projeto integrador, desenvolvido por: Ananda, Evelin, Felipe, Gabriel Pinheiro e Maria Vitória. <br/>
+Projeto integrador, desenvolvido por: Ananda, Evelin, Felipe, Gabriel Pinheiro. <br/>
 
 <p align="center">
   <a href="#tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -39,4 +39,4 @@ Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figm
 
 ## Desenvolvedores
 
-Ananda, Evelin, Felipe, Gabriel Pinheiro e Maria Vitória.
+Ananda, Evelin, Felipe e Gabriel Pinheiro.
